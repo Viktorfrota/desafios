@@ -1,0 +1,5 @@
+# SEJA BEM VINDO AOS DESAFIOS DE LOGICA DO CROSSCODE
+AQUI ESTAREI RESOLVENDO DESAFIOS LOGICOS 
+E NESSE CASO E ESSE
+**Crie uma função que dado um array de números retorna apenas o elemento mais alto entre eles.**
+criei um loop que vai gerar um prompt e repetir ate a quantidade de numeros que eu quero comparar, logo depois ele adiciona o valor ja em formato de numero no array ja no caso da funçao ele utiliza como parametro o array, a funçao retorna o maior valor usando math.max, porem como a funçao math.max so consegue funcionar se o numero for separado, usei o spread operator "..." pra separar os numeros que conseguir retorna o maior deles, e enfim uso um alert so pra reproduzir esse numero :) bem basico mas eu sou iniciante ainda e ainda tive uma dificuldade logica, aceito dicas e correçoes.
