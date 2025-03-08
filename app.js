@@ -2,7 +2,7 @@ let numeros =[];
 for (let i = 0; i < 4; i++){
     var num = parseFloat(prompt(`digite um numero ${i + 1}`));
     numeros.push(num);
-    console.log(numeros)
+    console.log(numeros);
 }
 
 
