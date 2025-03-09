@@ -1,14 +1,11 @@
-let numeros =[];
-for (let i = 0; i < 4; i++){
-    var num = parseFloat(prompt(`digite um numero ${i + 1}`));
-    numeros.push(num);
-    console.log(numeros);
+const lista = [10,25,15,5,40];
+
+let atual = 0
+let maiorNumero = 0
+
+    for(; atual < lista.length; atual++){
+        if (lista[atual] > lista[maiorNumero]) {
+            maiorNumero = atual;
+        }
 }
-
-
-function maiorNumero(numeros){
-    //encontra e retorna o maior valor dentro do array
-    return Math.max(...numeros);
-}
-
-alert(`o maior numero encontrado foi ${maiorNumero(numeros)}`);
+console.log(`${lista[maiorNumero]}`);

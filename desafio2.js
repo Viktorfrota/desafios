@@ -17,9 +17,6 @@ let listaOrganizada=[];
                 maiorNumero = atual;
             }
         }
-
-        function verificador(){
-            listaOrganizada.push(menorNumero, maiorNumero);
-        }
+        
     console.log(`valor maior e ${lista[maiorNumero]}`);
     console.log(`valor menor e ${lista[menorNumero]}`);
